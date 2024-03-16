@@ -1,0 +1,52 @@
+:root {
+  --color-bg: #79AC78;
+  --color-font-family: #618264;
+  --color-button-hover: #B0D9B1;
+  --color-button: #D0E7D2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: "Raleway", sans-serif;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px white;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin: 20px;
+  list-style: none;
+}
+
