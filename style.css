@@ -18,7 +18,9 @@ html, body {
 }
 
 body {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   background-color: var(--color-bg);
   font-family: "Raleway", sans-serif;
 }
