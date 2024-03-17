@@ -19,7 +19,7 @@ Linktree em construção
 ### Features
 
 - [x] Deploy;
-- [x] Portifólios;
+- [ ] Portifólios;
 
 ### Demonstração da aplicação
 
@@ -27,8 +27,10 @@ Linktree em construção
 
 ### Autor
 
-<img src="./assets/rodrigo.jpg" alt="Foto de Rodrigo Teles" style="border-radius: 50%; width:100">
+<img src="./assets/rodrigo.jpg" alt="Foto de Rodrigo Teles" style="border-radius: 50%; width:100px">
 
 Rodrigo Teles de França Brito
 
+#### Contate-me
 [Linkedin](https://www.linkedin.com/in/rodriggoteles)
+[Github](https://www.github.com/rodrigoteles85)
