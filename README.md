@@ -36,4 +36,4 @@ Rodrigo Teles de França Brito
 #### Contate-me
 
 [Linkedin](https://www.linkedin.com/in/rodriggoteles)
-[Github](https://www.github.io/rodrigoteles85)
+[Github](https://rodrigoteles85.github.io/linktree)
