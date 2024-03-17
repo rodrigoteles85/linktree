@@ -19,7 +19,7 @@ Linktree em construção
 ### Features
 
 - [x] Deploy;
-- [x] Portifólios;
+- [ ] Portifólios;
 
 ### Demonstração da aplicação
 
@@ -31,5 +31,6 @@ Linktree em construção
 
 Rodrigo Teles de França Brito
 
+#### Contate-me
 [Linkedin](https://www.linkedin.com/in/rodriggoteles)
 [Github](https://www.github.com/rodrigoteles85)
