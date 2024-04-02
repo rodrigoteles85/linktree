@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+
   background-color: var(--color-bg);
   font-family: "Raleway", sans-serif;
 }
@@ -52,17 +53,18 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 36px;
+
   margin: 20px;
   list-style: none;
 }
 
 .links-list li {
-  background: var(--color-font-secundary);
+  background: var(--color-button);
   padding: 8px 16px;
   margin: 16px 32px;
   list-style: none;
   border-radius: 8px;
-  box-shadow: 0 0 5px white;
+  box-shadow: 0 0 5px var(--color-font-secundary);
   text-align: center;
 }
 

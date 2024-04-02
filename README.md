@@ -31,7 +31,9 @@ Linktree em construção
 
 <img src="./assets/rodrigo.jpg" alt="Foto de Rodrigo Teles" style="border-radius: 50%; width:100px">
 
-Rodrigo Teles de França Brito
+#### Rodrigo Teles de França Brito <br>
+
+<em>Professor EMI</em>
 
 #### Contate-me
 
