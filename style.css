@@ -84,3 +84,39 @@ h2 {
   font-size: 10px;
   height: 40px;
 }
+
+@media (min-width: 426px) {
+  .container {
+    width: 70vw;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  .avatar {
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .links-list {
+    font-size: 22px;
+  }
+
+  .rodape {
+    font-size: 16px;
+  }
+}
