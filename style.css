@@ -5,14 +5,18 @@
 }
 
 .container {
-  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 80px 0;
   margin: 0 auto;
   width: 90vw;
+  height: 80vh;
 }
 
 body {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,1) 9%, rgba(22,44,113,1) 37%, rgba(34,62,195,1) 63%, rgba(24,47,126,1) 89%, rgba(22,44,113,1) 100%);
@@ -94,4 +98,11 @@ h2 {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+
+  padding: 20px 0;
 }
