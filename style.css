@@ -4,25 +4,35 @@
   box-sizing: border-box;
 }
 
+.container {
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 90vw;
+}
+
 body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
   background: rgb(34,62,195);
   background: linear-gradient(0deg, rgba(34,62,195,1) 0%, rgba(27,52,148,1) 20%, rgba(24,47,126,1) 41%, rgba(22,44,113,1) 59%, rgba(22,44,113,1) 83%);
   background-repeat: no-repeat;
   background-size: cover;
+
   height: 100vh;
 
-  color: white;
   font-family: "Raleway", serif;
   font-weight: 400;
+  color: white;
 }
 
 .profile{
   text-align: center;
-  margin-top: 20px;
 }
 
 .avatar {
   width: 80px;
+
   border-radius: 50px;
   border: 3px solid white;
   box-shadow: 0 0 20px white;
@@ -32,6 +42,7 @@ h1 {
   font-family: "Architects Daughter", serif;
   font-weight: 100;
   font-size: 24px;
+
   margin-bottom: 5px;
 }
 
@@ -43,8 +54,10 @@ h2 {
 .social {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px 0;
+
   text-align: center;
+
+  margin: 20px 0;
 }
 
 .social li {
@@ -52,5 +65,33 @@ h2 {
 }
 
 .fa-brands {
-  color: black;
+  color: white;
+}
+
+.container p {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.list-links{
+  list-style: none;
+}
+
+.list-links li {
+  margin: 1rem 20px;
+}
+
+.list-links li a{
+  display: block;
+
+  background: white;
+  color: rgb(34,62,195);
+
+  padding: 15px 20px;
+  border-radius: 4px;
+
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
 }
