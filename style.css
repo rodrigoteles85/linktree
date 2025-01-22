@@ -14,8 +14,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  background: rgb(34,62,195);
-  background: linear-gradient(0deg, rgba(34,62,195,1) 0%, rgba(27,52,148,1) 20%, rgba(24,47,126,1) 41%, rgba(22,44,113,1) 59%, rgba(22,44,113,1) 83%);
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 9%, rgba(22,44,113,1) 37%, rgba(34,62,195,1) 63%, rgba(24,47,126,1) 89%, rgba(22,44,113,1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 
