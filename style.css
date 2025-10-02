@@ -11,26 +11,30 @@
   padding: 80px 0;
   margin: 0 auto;
   width: 90vw;
-  height: 80vh;
 }
 
 body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 9%, rgba(22,44,113,1) 37%, rgba(34,62,195,1) 63%, rgba(24,47,126,1) 89%, rgba(22,44,113,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 9%,
+    rgba(22, 44, 113, 1) 37%,
+    rgba(34, 62, 195, 1) 63%,
+    rgba(24, 47, 126, 1) 89%,
+    rgba(22, 44, 113, 1) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
-
-  height: 100vh;
 
   font-family: "Raleway", serif;
   font-weight: 400;
   color: white;
 }
 
-.profile{
+.profile {
   text-align: center;
 }
 
@@ -78,7 +82,7 @@ h2 {
   font-weight: 200;
 }
 
-.list-links{
+.list-links {
   list-style: none;
 }
 
@@ -86,17 +90,18 @@ h2 {
   margin: 1rem 20px;
 }
 
-.list-links li a{
+.list-links li a {
   display: block;
 
   background: white;
-  color: rgb(34,62,195);
+  color: rgb(34, 62, 195);
 
   padding: 15px 20px;
   border-radius: 4px;
 
   text-decoration: none;
   text-align: center;
+  font-size: 12px;
   font-weight: bold;
 }
 
